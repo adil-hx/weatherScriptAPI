@@ -2,7 +2,7 @@ import requests
 import os
 from datetime import datetime
 
-user_api = "214267fce1b044ab00f043a929accbb0"
+user_api = os.environ.get("api-token")
 location = input("Enter city name, followed with the Country Code:")
 
 
